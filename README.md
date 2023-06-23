@@ -17,13 +17,13 @@ Note: User "ravster" is hard coded. You can, however, add your own user name / i
 ## With Absolute Paths
 If the browser is unable to locate the various resources, update the following paths to absolutes:
 1) In ./RP_server.js, 
-- Line 16, change the absolute path to the "views" folder
-- Line 19, change the absolute path to the "public" folder
-- Line 54, change the absolute path to the "CDN" folder
-- Line 66, change the absolute path to the "CDN" folder
+- Line 16, change the path to an absolute for the "views" folder
+- Line 19, change the path to an absolute for the "public" folder
+- Line 54, change the path to an absolute for the "CDN" folder
+- Line 66, change the path to an absolute for the "CDN" folder
 
 2) In ./ServiceProvider.mjs,
-- Line 15, change the absolute path to the "views" folder
+- Line 15, change the path to an absolute for the "views" folder
 
 3) Run both servers.
 4) Follow steps 5 - 9 above.
