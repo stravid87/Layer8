@@ -10,9 +10,9 @@ Layer8 Proof of Concept
 5) Run  `$node ServiceProvider.mjs`
 6) Navigate to localhost:3000
 7) Check out the poems anonymously
-8) Login, choose and identity (at this time you will have to choose a randomly generated <adjective + animal> identity provided)
+8) Login, choose an identity (at this time you will have to choose a randomly generated <adjective + animal> identity provided)
 9) Use the crypto poems site to browse poems without exposing to the service provider who you really are, rather only your chosen identity. 
-
+Note: User "ravster" is hard coded. You can, however, add your own user name / id.
 
 ## With Absolute Paths
 If the browser is unable to locate the various resources, update the following paths to absolutes:
