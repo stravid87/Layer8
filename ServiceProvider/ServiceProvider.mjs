@@ -12,7 +12,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(express.static("./public"));
 app.set("view engine", "ejs");
-app.set("views", "C:\\Users\\Ravi's Prof Corp PC\\Desktop\\learning_computers\\layer_8_v2\\service_provider\\views");
+app.set("views", "./views");
 
 try {
   app.use(Layer8);

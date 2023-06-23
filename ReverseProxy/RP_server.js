@@ -13,10 +13,10 @@ initServerKeys();
 const PORT = 3000;
 const app = express();
 app.set("view engine", "ejs");
-app.set("views", "C:\\Users\\Raha Seyed-Mahmoud\\Desktop\\learning-computers\\Layer8\\Layer8\\ReverseProxy\\views");
+app.set("views", "./views");
 
 // MIDLEWARE
-app.use(express.static("C:\\Users\\Raha Seyed-Mahmoud\\Desktop\\learning-computers\\Layer8\\Layer8\\ReverseProxy\\public"));
+app.use(express.static("./public"));
 app.use(bodyParser.json());
 
 // ROUTES
@@ -51,7 +51,7 @@ app.route("/CDN/L8_module_v1").get((req, res) => {
       res.setHeader("Access-Control-Allow-Origin", "*");
       res.type("application/javascript")
       res.status(200).sendFile("L8_module_v1.js", {
-        root: "C:\\Users\\Raha Seyed-Mahmoud\\Desktop\\learning-computers\\Layer8\\Layer8\\ReverseProxy\\CDN"
+        root: "./CDN"
       });
     }
   })
@@ -63,7 +63,7 @@ app.route("/CDN/L8_module_v1.ts").get((req, res) => {
       res.setHeader("Access-Control-Allow-Origin", "*");
       res.type("application/javascript")
       res.status(200).sendFile("L8_module_v1.ts", {
-        root: "C:\\Users\\Raha Seyed-Mahmoud\\Desktop\\learning-computers\\Layer8\\Layer8\\ReverseProxy\\CDN"
+        root: "./CDN"
       });
     }
   })
@@ -75,7 +75,7 @@ app.route("/CDN/b64_utils.js").get((req, res) => {
       res.setHeader("Access-Control-Allow-Origin", "*");
       res.type("application/javascript")
       res.status(200).sendFile("b64_utils.js", {
-        root: "C:\\Users\\Raha Seyed-Mahmoud\\Desktop\\learning-computers\\Layer8\\Layer8\\ReverseProxy\\CDN"
+        root: "./CDN"
       });
     }
   })

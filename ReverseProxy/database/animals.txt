@@ -20,9 +20,9 @@ Pigeon
 Turkey 
 Aardvark
 Aardwolf
-African buffalo
-African elephant
-African leopard
+Buffalo
+Elephant
+Leopard
 Albatross
 Alligator
 Alpaca
@@ -79,7 +79,7 @@ Bonobo
 Booby
 Box jellyfish
 Bovid
-Buffalo, African
+Buffalo
 Buffalo, American (bison)
 Bug
 Butterfly
